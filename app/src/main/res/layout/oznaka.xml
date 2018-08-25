@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/temno_modro"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40sp" >
+
+        <TextView
+            android:text="@string/dodaj_oznako"
+            android:textColor="@color/svetlo_modra"
+            android:gravity="center"
+            android:textSize="@dimen/tekstManjsi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_podatek"
+            android:layout_width="250sp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/dodaj_oznako"
+            android:inputType="textPersonName"
+            android:textColor="@color/svetlo_modra" />
+
+        <Button
+            android:id="@+id/button_dodaj"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dodaj"
+            android:textColor="@color/svetlo_modra"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="250sp"
+            android:divider="@color/rdeca"
+            android:dividerHeight="0.3sp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/brisanje_vse_lokacija"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="30sp"
+            android:textSize="@dimen/tekstManjsi"
+            android:textColor="@color/svetlo_modra"
+            android:text="@string/brisanje_baze_itd" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

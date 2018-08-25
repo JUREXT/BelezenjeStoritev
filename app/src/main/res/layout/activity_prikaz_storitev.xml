@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prikaz_storitev"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/temno_modro"
+    android:orientation="vertical"
+    tools:context="com.jurext.belezenje_storitve.belezenje_storitev.Prikaz_storitev"
+    >
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" >
+
+        <Button
+            android:layout_marginLeft="20sp"
+            android:background="@color/srednje_modra"
+            android:textColor="@color/svetlo_modra"
+            android:text="Pobriši Bazo"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_brisi"
+            android:onClick="POBRISI_BAZO"
+            android:layout_width="130sp" />
+
+        <Button
+            android:layout_marginLeft="60sp"
+            android:text="Export v CSV"
+            android:background="@color/srednje_modra"
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="130sp"
+            android:onClick="EXPORT"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_export" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1sp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/rdeca"
+        />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:divider="@color/svetlo_modra"
+            android:dividerHeight="2sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview" />
+    </TableRow>
+</LinearLayout>

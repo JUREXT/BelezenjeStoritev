@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Beleženje Storitev</string>
+    <string name="start">začni storitev</string>
+    <string name="stop">končaj storitev</string>
+    <string name="stop_vse">stop</string>
+    <string name="pregled">pregled storitev</string>
+    <string name="resetiraj">resetiraj</string>
+    <string name="vnos_podatkov">vnesi podatke za storitev</string>
+    <string name="storitev">Vnesi naziv storitve ali izberi:</string>
+    <string name="kraj">Vnesi kraj storitve ali izberi:</string>
+    <string name="stranka">Vnesi stranko in izberi oznako:</string>
+    <string name="datum_start">Datum začetka:</string>
+    <string name="datum_stop">Datum končanja:</string>
+    <string name="ura_start">Čas začetka:</string>
+    <string name="ura_stop">Čas končanja:</string>
+    <string name="ura">ure</string>
+    <string name="minute">minute</string>
+    <string name="locitev">in</string>
+    <string name="izhod">Izhod</string>
+    <string name="shrani">shrani</string>
+    <string name="trajanje_premora">trajanje premora:</string>
+    <string name="trajanje_storitve">trajanje storitve:</string>
+    <string name="cas_format">00:00:00</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="preteklicas">čas merjenja storitve</string>
+    <string name="id">id</string>
+    <string name="storitev_">Storitev:</string>
+    <string name="stranka_">Stranka:</string>
+    <string name="kraj_">Kraj:</string>
+    <string name="cas_trajanja">00:00:00</string>
+    <string name="datum_zacetek">01.01.2001</string>
+    <string name="datum_konec">01.01.2001</string>
+    <string name="cas_zacetek">15:15</string>
+    <string name="cas_konec">15:20</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="seznam_kraj_tag_storitev">Trenutno v seznamu</string>
+    <string name="title_activity_nastavitve">Nastavitve</string>
+    <string name="action_settings">Settings</string>
+    <string name="brisanje_baze_itd">Pobriši vnose</string>
+
+    <string name="dodaj_storitev">Dodaj storitev</string>
+    <string name="dodaj_oznako">Dodaj oznako</string>
+    <string name="dodaj_lokacijo">Dodaj lokacijo</string>
+
+</resources>

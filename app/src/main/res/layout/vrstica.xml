@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="130sp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30sp" >
+
+        <TextView
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:text="@string/storitev_"
+            android:layout_height="match_parent"
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="60sp" />
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:gravity="center"
+            android:text="Oranje"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/storitev"
+            android:textAlignment="textStart"
+            android:textStyle="normal|bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30sp"  >
+
+        <TextView
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:text="@string/stranka_"
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:textColor="@color/zelo_svetlo_zelena" />
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:gravity="center"
+            android:text="Jure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/stranka"
+            android:textStyle="normal|bold"
+            android:textAlignment="textStart" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30sp" >
+
+        <TextView
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:text="@string/kraj_"
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:textColor="@color/zelo_svetlo_zelena" />
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_marginRight="5sp"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:text="Celje"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/kraj"
+            android:textStyle="normal|bold"
+            android:textAlignment="textStart" />
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40sp">
+
+            <TextView
+                android:textColor="@color/svetlo_modra"
+                android:layout_marginLeft="15sp"
+                android:gravity="center"
+                android:text="@string/cas_trajanja"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/trajanje"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:textColor="@color/svetlo_modra"
+                android:layout_marginLeft="15sp"
+                android:gravity="center"
+                android:text="@string/datum_zacetek"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/datum_zacetek"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:textColor="@color/svetlo_modra"
+                android:layout_marginLeft="15sp"
+                android:gravity="center"
+                android:text="@string/datum_konec"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/datum_konec"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:textColor="@color/svetlo_modra"
+                android:layout_marginLeft="15sp"
+                android:gravity="center"
+                android:text="@string/cas_zacetek"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ura_start"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:textColor="@color/svetlo_modra"
+                android:layout_marginLeft="15sp"
+                android:gravity="center"
+                android:text="@string/cas_konec"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ura_stop"
+                android:textStyle="normal|bold" />
+        </TableRow>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280sp"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="20sp" >
+
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="Datum Začetek" />
+
+        <Space
+            android:layout_width="148sp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="Datum Konec"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+
+        <TextView
+            android:id="@+id/datum_zacetek"
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="120sp"
+            android:layout_height="match_parent"
+            android:text="09.03.2017"
+            android:textSize="@dimen/tekstVecji" />
+
+        <Space
+            android:layout_width="100sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="120sp"
+            android:id="@+id/datum_konec"
+            android:layout_height="match_parent"
+            android:text="09.03.2017"
+            android:textSize="@dimen/tekstVecji" />
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="@color/svetlo_modra"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="20sp" >
+
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ura Začetek" />
+
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Trajanje Storitve"
+            />
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ura Konec"/>
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="@color/svetlo_modra"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="35sp" >
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="wrap_content"
+            android:id="@+id/ura_start"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/tekstVecji"
+            android:text="17:36" />
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="220sp"
+            android:id="@+id/trajanje"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/tekstVecji"
+            android:text="00:35:15"
+            />
+
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:id="@+id/ura_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="17:36"
+            android:textSize="@dimen/tekstVecji" />
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="@color/svetlo_modra"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="20sp" >
+
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:text="Storitev:" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="35sp" >
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/storitev"
+            android:textSize="@dimen/tekstVecji"
+            android:text="Oranje" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="20sp" >
+
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="Kraj:" />
+
+        <Space
+            android:layout_width="90sp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="Oznaka:"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="35sp" >
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="184sp"
+            android:layout_height="match_parent"
+            android:id="@+id/kraj"
+            android:textSize="@dimen/tekstVecji"
+            android:text="Celje" />
+
+        <Space
+            android:layout_width="5sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:id="@+id/oznaka"
+            android:textSize="@dimen/tekstVecji"
+            android:text="12345678910" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="20sp" >
+
+        <TextView
+            android:textColor="@color/zelo_svetlo_zelena"
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:text="Stranka:" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="35sp" >
+
+        <TextView
+            android:textColor="@color/svetlo_modra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/stranka"
+            android:textSize="@dimen/tekstVecji"
+            android:text="Jure Lokovšek" />
+
+    </TableRow>
+
+
+
+
+
+
+
+</LinearLayout>

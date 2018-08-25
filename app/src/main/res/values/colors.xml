@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="temno_modro">#0d152d</color>
+    <color name="svetlo_modra">#a0b4f0</color>
+    <color name="srednje_modra">#4169e1</color>
+    <color name="zelo_svetlo_zelena">#eefeef</color>
+    <color name="siva">#5a5454</color>
+    <color name="rdeca">#ff0000</color>
+</resources>
